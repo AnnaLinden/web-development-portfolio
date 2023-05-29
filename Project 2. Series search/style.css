@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.menu {
+    display: flex;
+    justify-content: space-between; /* This will keep your items at the ends of the menu container */
+    align-items: center; /* This will align items vertically center */
+    padding: 0 10px; /* Add some padding to the sides so the items do not stick to the edge */
+}
+
+* {
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.search {
+    flex-grow: 1; /* This will make the search input take the remaining width */
+    display: flex;
+    justify-content: space-between; /* This will keep your items at the ends of the search container */
+}
+section.search input[type=text] {
+    border-radius: 8px 0px 0px 8px;
+    padding: 10px;
+    font-size: 17px;
+    border: 2px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    display: inline-block;
+    position: relative;
+}
+
+section.search button {
+    border-radius: 0px 8px 8px 0px;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #4056A1;
+    color: white;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+section.search button:hover {
+    background: #F13C20;
+}
+
+section.search::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.header{
+    padding: 20px;
+    opacity: 90%;
+    width: 100%;
+    position: fixed;
+    height: 80px;
+    background-color: #C5CBE3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    backdrop-filter: blur(6px);
+    z-index: 9999;
+}
+
+.link_to_tv_maze {
+    text-align: right;
+    display: inline-block;
+    padding: 8px;
+    background-color: #4056A1;
+    border-radius: 50%;
+    border: 2px solid grey;
+    margin-left: 10px; /* This will give some space between the search box and the link */
+}
+
+.link_to_tv_maze > a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10pt;
+    color: white;
+}
+
+.link_to_tv_maze:hover{
+    background-color: #F13C20;
+    transform: scale(1.1);
+    transition: all ease 300ms;
+}
+
+main {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding-top: 0px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    background-image: url('19867230_MotionElements_particle-handwritten_converted_561725-256x144-4s-q2.gif');
+    background-color: #C5CBE3;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    margin: 0;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+#front_presentation {
+    background-color: #C5CBE3;
+    padding: 15px;
+    margin: 100px 20px 20px 20px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    display: block;
+    backdrop-filter: blur(2px);
+}
+
+h1 {
+    display: inline-block;
+    padding: 20px;
+    vertical-align: center;
+    margin-top: -20px;
+    margin-bottom: 0;
+}
+
+#result_box {
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.links {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.front_page_space {
+    margin-bottom: 300px;
+}
+.hovering {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hovering:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: darkblue;
+}
+
+body::-webkit-scrollbar {
+    width: 20px;
+}
+ /* scroll bar */
+body::-webkit-scrollbar-track {
+    background: #9db4c0;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #4056A1;
+    border: 2px solid #aeb6cf;
+}
+
+body {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(37, 50, 55, 0.65) #9db4c0;
+}
+
+.clicking:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.premiere {
+    font-size: 10pt;
+    margin: 5px;
+}
+
+#search_result{
+    color:white;
+    width: 100%;
+    display: block;
+    text-shadow: 1px 1px black;
+
+}
+.margin{
+    margin: 5px 0 0px 0;
+}
+.h6 {
+    margin: -15px 0 10px 0;
+    color: #131313;
+}
+.myDialog{
+    bottom: 20%;
+    border: solid navy;
+}
+
+
+
+
