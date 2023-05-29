@@ -35,7 +35,7 @@ Project is created with:
 ## Screenshots
 
 ![Screenshot 1](Screenshot1.jpg)
-![Screenshot 2](screenshot2.jpg)
+![Screenshot 2](Screenshot2.jpg)
 
 ## Setup
 
